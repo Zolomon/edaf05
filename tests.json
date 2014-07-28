@@ -1,0 +1,111 @@
+{
+    "lab1": {
+        "tests": [
+            {
+                "data": "",
+                "in": "sm-friends.in",
+                "out": "sm-friends.out"
+            },
+            {
+                "data": "",
+                "in": "sm-illiad.in",
+                "out": "sm-illiad.out"
+            },
+            {
+                "data": "",
+                "in": "sm-kt-p-4.in",
+                "out": "sm-kt-p-4.out"
+            },
+            {
+                "data": "",
+                "in": "sm-kt-p-5.in",
+                "out": "sm-kt-p-5.out"
+            },
+            {
+                "data": "",
+                "in": "sm-random-5.in",
+                "out": "sm-random-5.out"
+            },
+            {
+                "data": "",
+                "in": "sm-random-50.in",
+                "out": "sm-random-50.out"
+            },
+            {
+                "data": "",
+                "in": "sm-random-500.in",
+                "out": "sm-random-500.out"
+            },
+            {
+                "data": "",
+                "in": "sm-random-5000.in",
+                "out": "sm-random-5000.out"
+            },
+            {
+                "data": "",
+                "in": "sm-worst-5.in",
+                "out": "sm-worst-5.out"
+            },
+            {
+                "data": "",
+                "in": "sm-worst-50.in",
+                "out": "sm-worst-50.out"
+            },
+            {
+                "data": "",
+                "in": "sm-worst-500.in",
+                "out": "sm-worst-500.out"
+            }
+        ]
+      }
+//    },
+//    "lab2": {
+//        "tests": [
+//            {
+//                "data": "words-10.dat",
+//                "in": "words-10-test.in",
+//                "out": "words-10-test.out"
+//            },
+//            {
+//                "data": "words-50.dat",
+//                "in": "",
+//                "out": ""
+//            },
+//            {
+//                "data": "words-100.dat",
+//                "in": "",
+//                "out": ""
+//            },
+//            {
+//                "data": "words-250.dat",
+//                "in": "words-250-test.in",
+//                "out": "words-250-test.in"
+//            },
+//            {
+//                "data": "words-500.dat",
+//                "in": "",
+//                "out": ""
+//            },
+//            {
+//                "data": "words-5757.dat",
+//                "in": "words-5757-test.in",
+//                "out": "words-5757-test.out"
+//            },
+//
+//        ]
+//    }
+//    ,
+//    "lab3" : {
+//        "tests": [
+//            {
+//                "data":"",
+//                "in":"USA-highway-miles.in"
+//            }
+//        ]
+//    },
+//    "lab4": {
+//        "tests": [
+//            {}
+//        ]
+//    }
+}
