@@ -23,6 +23,7 @@ public abstract class Test {
     }
 
     public boolean run() {
+        algorithm.parse();
         algorithm.execute();
         String output = algorithm.getOutput();
         return this.output.equals(output);

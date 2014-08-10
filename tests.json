@@ -5,8 +5,8 @@
                 "data": "",
                 "in": "sm-friends.in",
                 "out": "sm-friends.out"
-            },
-            {
+            }
+            ,{
                 "data": "",
                 "in": "sm-illiad.in",
                 "out": "sm-illiad.out"
@@ -25,7 +25,8 @@
                 "data": "",
                 "in": "sm-random-5.in",
                 "out": "sm-random-5.out"
-            },
+            }
+            ,
             {
                 "data": "",
                 "in": "sm-random-50.in",

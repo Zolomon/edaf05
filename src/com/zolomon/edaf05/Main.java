@@ -29,7 +29,7 @@ public class Main {
             JsonObject lab1 = object.getAsJsonObject("lab1");
             JsonArray lab1Tests = lab1.getAsJsonArray("tests");
 
-            Algorithm algo1 = new StableMarriageAlgorithm();
+            //Algorithm algo1 = new StableMarriageAlgorithm();
 
             for (JsonElement test : lab1Tests) {
                 JsonObject t = test.getAsJsonObject();
@@ -56,12 +56,16 @@ public class Main {
                     e.printStackTrace();
                 }
 
-                tests.add(new Lab1Test(t.get("in").getAsString(), algo1, data, input, output));
+                tests.add(new Lab1Test(t.get("in").getAsString(), new StableMarriageAlgorithm(), data, input, output));
+                System.out.println("Adding: " + t.get("in").getAsString());
             }
 
-            for (Test test : tests) {
+            for(int i = 0; i < tests.size(); i++) {
+                Test test = tests.get(i);
                 if (!test.passes()) {
                     System.out.println(test.getName() + " failed");
+                } else {
+                    System.out.println(test.getName() + " passed");
                 }
             }
 
