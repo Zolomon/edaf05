@@ -1,4 +1,7 @@
-package com.zolomon.edaf05;
+package com.zolomon.edaf05.lab1;
+
+import com.zolomon.edaf05.Algorithm;
+import com.zolomon.edaf05.Test;
 
 /**
  * Created by zol on 20.7.2014.

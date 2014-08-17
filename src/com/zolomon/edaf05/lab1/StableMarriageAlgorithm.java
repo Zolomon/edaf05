@@ -1,4 +1,6 @@
-package com.zolomon.edaf05;
+package com.zolomon.edaf05.lab1;
+
+import com.zolomon.edaf05.Algorithm;
 
 import java.io.BufferedReader;
 import java.io.IOException;
